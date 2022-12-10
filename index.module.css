@@ -1,0 +1,287 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.rectangleDiv {
+  position: absolute;
+  top: 1811px;
+  left: 0;
+  background-color: var(--color-violet);
+  width: 1978px;
+  height: 284px;
+}
+.tanmay25bijalwangmailcomSpan {
+  text-decoration: underline;
+}
+.tanmay25bijalwangmailcom {
+  color: inherit;
+}
+.eMailTanmay25bijalwangmai {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.blankLineP {
+  margin: 0;
+}
+.allTheContentsUsedInThis,
+.footerDiv {
+  position: absolute;
+  width: 1955px;
+  height: 282px;
+}
+.allTheContentsUsedInThis {
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.footerDiv {
+  top: 1813px;
+  left: 11px;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: inherit;
+}
+.oURAIMB {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 388.89px;
+  height: 134.57px;
+}
+.inIndiaEveryoneShouldHave {
+  margin: 0;
+  position: absolute;
+  top: 182px;
+  left: 75px;
+  font-size: var(--font-size-base);
+  font-weight: 300;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 1137px;
+  height: 311px;
+}
+.aimImgIcon {
+  top: 39px;
+  left: 1301px;
+  width: 570px;
+  height: 699px;
+  object-fit: cover;
+}
+.aimImgIcon,
+.oURVISIONB,
+.ourAimSection {
+  position: absolute;
+}
+.ourAimSection {
+  top: 1038px;
+  left: -40px;
+  width: 1871px;
+  height: 738px;
+}
+.oURVISIONB {
+  top: 25px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 388.89px;
+  height: 134.57px;
+}
+.visionImgIcon {
+  position: absolute;
+  top: 0;
+  left: 1282px;
+  width: 570px;
+  height: 699px;
+  object-fit: cover;
+}
+.blankLineP1 {
+  margin: 0;
+  font-size: var(--font-size-3xs);
+}
+.motherNatureIsAlwaysOnOur {
+  margin: 0;
+  position: absolute;
+  top: 225px;
+  left: 18px;
+  font-weight: 300;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 1264px;
+  height: 311px;
+  font-size: var(--font-size-base);
+}
+.ourVisionSection {
+  position: absolute;
+  top: 311px;
+  left: 17px;
+  width: 1852px;
+  height: 699px;
+}
+.aBOUTUS,
+.aboutUsHeading {
+  position: absolute;
+  width: 385px;
+  height: 90px;
+}
+.aBOUTUS {
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutUsHeading {
+  top: 181px;
+  left: 1px;
+  color: var(--color-black);
+}
+.vULTUREPIDiv {
+  left: 102.61px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 187.96px;
+  opacity: 0;
+}
+.vULTUREPIDiv.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-top;
+}
+.lOGINB,
+.loginBtnDiv,
+.vULTUREPIDiv {
+  position: absolute;
+  top: 0;
+  height: 83px;
+}
+.loginBtnDiv {
+  left: 0;
+  background-color: var(--color-white);
+  width: 207.01px;
+}
+.lOGINB {
+  left: 15.33px;
+  font-size: var(--font-size-xs);
+  display: flex;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 176.34px;
+}
+.lOGINB:hover {
+  color: var(--color-turquoise);
+}
+.aBOUTButton,
+.hOMEButton,
+.loginBtnButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  height: 83px;
+}
+.loginBtnButton {
+  left: 1121px;
+  width: 207.01px;
+}
+.loginBtnButton:hover {
+  cursor: pointer;
+}
+.aBOUTButton,
+.hOMEButton {
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170.68px;
+}
+.hOMEButton {
+  left: 1580px;
+}
+.aBOUTButton:hover,
+.hOMEButton:hover,
+.sIGNUPButton:hover {
+  color: var(--color-turquoise);
+}
+.aBOUTButton {
+  left: 1772px;
+}
+.logoIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 102.61px;
+  height: 79.64px;
+  object-fit: cover;
+}
+.sIGNUPButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 15.33px;
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 176.34px;
+}
+.loginBtnButton1,
+.menuBar,
+.sIGNUPButton {
+  position: absolute;
+  top: 0;
+  height: 83px;
+}
+.loginBtnButton1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 1350px;
+  width: 207.01px;
+}
+.loginBtnButton1:hover {
+  cursor: pointer;
+}
+.menuBar {
+  left: 35px;
+  width: 1942.68px;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+}
+.aboutPageDiv {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 2095px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-violet);
+  font-family: var(--font-inter);
+}

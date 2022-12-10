@@ -1,0 +1,132 @@
+.signUpPageImg {
+  position: absolute;
+  top: 87px;
+  left: 598px;
+  width: 570px;
+  height: 801px;
+  object-fit: cover;
+}
+.helloThereNew {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.helloThereNewAroundHereD,
+.sIGNUPH1 {
+  margin: 0;
+  position: absolute;
+  top: 97px;
+  left: 0;
+  font-weight: 300;
+  display: inline-block;
+  width: 598px;
+  height: 89px;
+}
+.sIGNUPH1 {
+  top: 0;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: inherit;
+  height: 61px;
+}
+.signUpTextWithImages {
+  position: absolute;
+  top: 36px;
+  left: 63px;
+  width: 1168px;
+  height: 888px;
+}
+.homeAddressTextbox,
+.phoneNumberInput {
+  background-color: transparent;
+  position: absolute;
+}
+.phoneNumberInput {
+  top: 680px;
+  left: 62px;
+}
+.homeAddressTextbox {
+  top: 581px;
+  left: 64px;
+}
+.emailTextboxInput,
+.nameTextboxInput,
+.passwordTextareaInput {
+  background-color: transparent;
+  position: absolute;
+}
+.passwordTextareaInput {
+  top: 482px;
+  left: 62px;
+}
+.emailTextboxInput {
+  top: 383px;
+  left: 63px;
+}
+.nameTextboxInput {
+  left: 63px;
+  top: 284px;
+}
+.loginSignUp {
+  width: 235px;
+  position: absolute;
+  top: 912px;
+  left: 211px;
+  cursor: pointer;
+}
+.oRP {
+  margin: 0;
+  position: absolute;
+  top: 854px;
+  left: 0;
+  font-weight: 800;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 661px;
+  height: 56px;
+}
+.rectangleDiv {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-indigo);
+}
+.rectangleDiv,
+.sIGNUPDiv,
+.signUpBTN {
+  position: absolute;
+  width: 235px;
+  height: 56px;
+}
+.sIGNUPDiv {
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signUpBTN {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 796px;
+  left: 211px;
+}
+.signUpPage {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1039px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

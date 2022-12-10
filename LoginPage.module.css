@@ -1,0 +1,161 @@
+@keyframes shadow-drop-bottom {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: 0 12px 20px -12px rgb(0 0 0/35%);
+  }
+}
+.loginPageImage {
+  position: absolute;
+  top: 47px;
+  left: 661px;
+  width: 570px;
+  height: 801px;
+  object-fit: cover;
+}
+.lOGINDiv,
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 235px;
+  height: 56px;
+}
+.rectangleDiv {
+  border-radius: var(--br-xs);
+  background-color: var(--color-indigo);
+}
+.lOGINDiv {
+  font-size: var(--font-size-xs);
+  font-weight: 300;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.createNewAccount,
+.loginBTNButton {
+  width: 235px;
+  position: absolute;
+  cursor: pointer;
+}
+.loginBTNButton {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  left: 213px;
+  height: 56px;
+}
+.createNewAccount {
+  top: 152px;
+  left: 212px;
+}
+.oRP,
+.optionsForLogin {
+  position: absolute;
+  left: 0;
+  width: 661px;
+}
+.oRP {
+  margin: 0;
+  top: 76px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+}
+.optionsForLogin {
+  top: 570px;
+  height: 208px;
+}
+.forgotPasswordButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 458px;
+  left: 70px;
+  font-size: var(--font-size-3xs);
+  text-transform: capitalize;
+  font-weight: 300;
+  font-family: var(--font-inter);
+  color: var(--color-gray);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 267px;
+}
+.forgotPasswordButton:hover {
+  animation: 2s ease 0s infinite normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.emailTextboxInput,
+.passwordTextboxInput {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.passwordTextboxInput {
+  top: 114px;
+}
+.credentialsEnteringArea,
+.loginH1 {
+  position: absolute;
+  top: 251px;
+  left: 63px;
+  width: 532px;
+  height: 168px;
+}
+.loginH1 {
+  margin: 0;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  width: 598px;
+  height: 61px;
+}
+.heyThereWe {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.heyThereWeAreThrilledTo {
+  margin: 0;
+  position: absolute;
+  top: 99px;
+  left: 0;
+  font-size: var(--font-size-3xs);
+  font-weight: 300;
+  display: inline-block;
+  width: 598px;
+  height: 57px;
+}
+.loginTextsDiv {
+  position: absolute;
+  top: 58px;
+  left: 63px;
+  width: 598px;
+  height: 156px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+}
+.loginPageDiv {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 879px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,493 @@
+@keyframes fade-in-left {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.rectangleDiv {
+  position: absolute;
+  top: 3701px;
+  left: 0;
+  background-color: var(--color-violet);
+  width: 1978px;
+  height: 284px;
+}
+.tanmay25bijalwangmailcomSpan {
+  text-decoration: underline;
+}
+.tanmay25bijalwangmailcom {
+  color: inherit;
+}
+.eMailTanmay25bijalwangmai {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.blankLineP {
+  margin: 0;
+}
+.allTheContentsUsedInThis,
+.footerDiv {
+  position: absolute;
+  width: 1978px;
+  height: 282px;
+}
+.allTheContentsUsedInThis {
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.footerDiv {
+  top: 3699px;
+  left: 22px;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: inherit;
+}
+.wHYTOWAITJOINUSNOW {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 796px;
+  height: 90px;
+}
+.joinUsBox {
+  position: absolute;
+  top: 0.14px;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-violet);
+  width: 319px;
+  height: 87.07px;
+}
+.jOINUSButton,
+.joinUsButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 319px;
+}
+.jOINUSButton {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 87.07px;
+}
+.joinUsButton {
+  top: 218px;
+  left: 238px;
+  height: 87.21px;
+}
+.getStartedBtn:active,
+.joinUsButton:active,
+.learnMoreButton:active,
+.moreInfoButton:active {
+  animation: 1s ease 0s 1 normal none fade-in-left;
+  opacity: 1;
+}
+.stillHaveDoubtsFeelFreeT {
+  position: absolute;
+  top: 110px;
+  left: 69px;
+  font-size: var(--font-size-xs);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 662px;
+  height: 52px;
+}
+.joinUsGroup {
+  position: absolute;
+  top: 3118px;
+  left: 591px;
+  width: 796px;
+  height: 305.21px;
+}
+.learnMoreBox,
+.learnMoreButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  width: 319px;
+}
+.learnMoreBox {
+  background-color: var(--color-violet);
+  top: 0.14px;
+  left: 0;
+  border-radius: var(--br-sm);
+  height: 87.07px;
+}
+.learnMoreButton {
+  background-color: transparent;
+  top: 957px;
+  left: 33px;
+  height: 87.21px;
+}
+.aFFORDABLEYETPOWERFULLCOMPO,
+.fEATURESB,
+.mOSTUNIQUESMARTHOMECONTROL {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+}
+.fEATURESB {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-xl);
+  width: 385px;
+}
+.aFFORDABLEYETPOWERFULLCOMPO {
+  left: 222px;
+  width: 531px;
+}
+.mOSTUNIQUESMARTHOMECONTROL {
+  top: 206px;
+  left: 222px;
+  width: 531px;
+}
+.aFFORDABLEYETPOWERFULLCOMPO {
+  top: 452px;
+}
+.servicesImgIcon {
+  position: absolute;
+  top: 128.27px;
+  left: 1278.12px;
+  border-radius: var(--br-md);
+  width: 617.07px;
+  height: 646.46px;
+  object-fit: cover;
+}
+.componentsImgBox,
+.controlPanelBox {
+  position: absolute;
+  left: 46px;
+  width: 176px;
+  height: 152px;
+  object-fit: cover;
+}
+.controlPanelBox {
+  top: 175px;
+}
+.componentsImgBox {
+  top: 412px;
+}
+.qUICKEASYMAINTAINANCERE {
+  position: absolute;
+  top: 711px;
+  left: 222px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 628px;
+  height: 90px;
+}
+.maintananceImgBox {
+  position: absolute;
+  top: 680px;
+  left: 46px;
+  width: 176px;
+  height: 152px;
+  object-fit: cover;
+}
+.servicesSectionDiv {
+  position: absolute;
+  top: 1855px;
+  left: 7px;
+  width: 1896.32px;
+  height: 1044.21px;
+  font-size: var(--font-size-xs);
+}
+.moreInfoBox,
+.moreInfoButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  width: 293.26px;
+}
+.moreInfoBox {
+  background-color: var(--color-violet);
+  top: 0.14px;
+  left: 0;
+  border-radius: var(--br-sm);
+  height: 87.07px;
+}
+.moreInfoButton {
+  background-color: transparent;
+  top: 470px;
+  left: 45px;
+  height: 87.21px;
+}
+.aboutUsImage {
+  position: absolute;
+  top: 2.22px;
+  left: 1319.96px;
+  border-radius: var(--br-lg);
+  width: 615.39px;
+  height: 644.56px;
+  object-fit: cover;
+}
+.aBOUTUS,
+.weAreVulturesOfInnovation {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.aBOUTUS {
+  top: 53px;
+  left: 0;
+  justify-content: center;
+  width: 385px;
+  height: 90px;
+}
+.weAreVulturesOfInnovation {
+  top: 205px;
+  left: 45px;
+  font-size: var(--font-size-sm);
+  text-align: left;
+  width: 1047px;
+  height: 192px;
+}
+.aboutUsSection,
+.heroSectionPhoto {
+  position: absolute;
+  top: 1015px;
+  left: 7px;
+  width: 1937.32px;
+  height: 649px;
+}
+.heroSectionPhoto {
+  top: 0;
+  left: 1325px;
+  width: 619.32px;
+  object-fit: cover;
+}
+.experienceTheSmartHomesOf,
+.vULTUREPiB {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.experienceTheSmartHomesOf {
+  top: 0.21px;
+  left: 0;
+  font-weight: 800;
+  width: 1260.16px;
+  height: 157.18px;
+}
+.vULTUREPiB {
+  top: 99px;
+  left: 26px;
+  color: var(--color-violet);
+  width: 388.89px;
+  height: 134.57px;
+}
+.rectangleDiv1 {
+  position: absolute;
+  top: 0.14px;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-violet);
+  width: 293.26px;
+  height: 87.07px;
+}
+.getStartedBtn,
+.getStartedButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 293.26px;
+}
+.getStartedButton {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 87.07px;
+}
+.getStartedBtn {
+  top: 356px;
+  left: 50px;
+  height: 87.21px;
+}
+.heroSectionDiv {
+  position: absolute;
+  top: 208px;
+  left: 0;
+  width: 1944.32px;
+  height: 649px;
+}
+.vULTUREPIDiv {
+  left: 102.61px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 187.96px;
+  opacity: 0;
+}
+.vULTUREPIDiv.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-top;
+}
+.lOGINB,
+.loginBtnDiv,
+.vULTUREPIDiv {
+  position: absolute;
+  top: 0;
+  height: 83px;
+}
+.loginBtnDiv {
+  left: 0;
+  background-color: var(--color-white);
+  width: 207.01px;
+}
+.lOGINB {
+  left: 15.33px;
+  font-size: var(--font-size-xs);
+  display: flex;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 176.34px;
+}
+.lOGINB:hover {
+  color: var(--color-turquoise);
+}
+.aBOUTButton,
+.hOMEButton,
+.loginBtnButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  height: 83px;
+}
+.loginBtnButton {
+  left: 1121px;
+  width: 207.01px;
+}
+.loginBtnButton:hover {
+  cursor: pointer;
+}
+.aBOUTButton,
+.hOMEButton {
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170.68px;
+}
+.hOMEButton {
+  left: 1580px;
+}
+.aBOUTButton:hover,
+.hOMEButton:hover,
+.sIGNUPButton:hover {
+  color: var(--color-turquoise);
+}
+.aBOUTButton {
+  left: 1772px;
+}
+.logoIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 102.61px;
+  height: 79.64px;
+  object-fit: cover;
+}
+.sIGNUPButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 15.33px;
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 176.34px;
+}
+.loginBtnButton1,
+.menuBar,
+.sIGNUPButton {
+  position: absolute;
+  top: 0;
+  height: 83px;
+}
+.loginBtnButton1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 1350px;
+  width: 207.01px;
+}
+.loginBtnButton1:hover {
+  cursor: pointer;
+}
+.menuBar {
+  left: 35px;
+  width: 1942.68px;
+  font-size: var(--font-size-xs);
+}
+.homeMain {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 3997px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
